@@ -1,4 +1,4 @@
-var parse = require('xml-parser');
+var parse = require('xml-parser-supports-cdata');
 var render = require('xml-render');
 var fmt = require('util').format;
 var h = require('hyperscript');
